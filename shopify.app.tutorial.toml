@@ -3,7 +3,7 @@
 client_id = "636f785133c20d6910175732a9ac500d"
 name = "tutorial"
 handle = "tutorial-163"
-application_url = "https://cst-devon-entering-fall.trycloudflare.com"
+application_url = "https://until-cached-matched-admission.trycloudflare.com"
 embedded = true
 
 [build]
@@ -16,9 +16,9 @@ scopes = ""
 
 [auth]
 redirect_urls = [
-  "https://cst-devon-entering-fall.trycloudflare.com/auth/callback",
-  "https://cst-devon-entering-fall.trycloudflare.com/auth/shopify/callback",
-  "https://cst-devon-entering-fall.trycloudflare.com/api/auth/callback"
+  "https://until-cached-matched-admission.trycloudflare.com/auth/callback",
+  "https://until-cached-matched-admission.trycloudflare.com/auth/shopify/callback",
+  "https://until-cached-matched-admission.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
