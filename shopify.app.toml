@@ -1,0 +1,28 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "636f785133c20d6910175732a9ac500d"
+name = "tutorial"
+handle = "tutorial-163"
+application_url = "https://guest-network-xml-hamburg.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "quickstart-4f74010c.myshopify.com"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = ""
+
+[auth]
+redirect_urls = [
+  "https://guest-network-xml-hamburg.trycloudflare.com/auth/callback",
+  "https://guest-network-xml-hamburg.trycloudflare.com/auth/shopify/callback",
+  "https://guest-network-xml-hamburg.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-04"
+
+[pos]
+embedded = false
